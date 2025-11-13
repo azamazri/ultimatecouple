@@ -1,4 +1,6 @@
-# Welcome to your Lovable project
+# Ultimate Couple Experience
+
+Landing page untuk Ultimate Couple Experience - event eksklusif untuk pasangan.
 
 ## Project info
 

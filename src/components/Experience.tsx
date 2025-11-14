@@ -1,23 +1,25 @@
-import { Heart, Music, Laugh } from 'lucide-react';
-import scheduleImage from "@/assets/schedule-rundown.png";
+import { Heart, Music, Laugh } from "lucide-react";
+import scheduleImage from "@/assets/schedule-rundown.jpg";
 
 export function Experience() {
   const activities = [
     {
       icon: Heart,
       title: "Reconnecting the Heart",
-      description: "Sesi refleksi dan aktivitas emosional untuk membuka kembali rasa"
+      description:
+        "Sesi refleksi dan aktivitas emosional untuk membuka kembali rasa",
     },
     {
       icon: Music,
       title: "Romantic Dinner & Acoustic Night",
-      description: "Momen penuh cinta dan keheningan"
+      description: "Momen penuh cinta dan keheningan",
     },
     {
       icon: Laugh,
       title: "Celebrate the Fun",
-      description: "Games & tantangan kolaboratif yang memperkuat tawa dan kebersamaan"
-    }
+      description:
+        "Games & tantangan kolaboratif yang memperkuat tawa dan kebersamaan",
+    },
   ];
 
   return (
@@ -47,7 +49,9 @@ export function Experience() {
         {/* Rundown Schedule */}
         <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-4 border-2 border-[#D7A753]">
           <div className="text-center mb-6">
-            <h3 className="text-[#D7A753]">Rundown Acara Lengkap</h3>
+            <h3 className="text-[#D7A753] mb-2 text-2xl md:text-2xl font-bold">
+              Rundown Acara Lengkap
+            </h3>
           </div>
           <img
             src={scheduleImage}

@@ -1,5 +1,5 @@
-import { Award, Heart, Briefcase } from 'lucide-react';
-import facilitatorImage from '@/assets/facilitator-photo.png';
+import { Award, Heart, Briefcase } from "lucide-react";
+import facilitatorImage from "@/assets/facilitator-photo.jpg";
 
 export function Facilitator() {
   return (
@@ -37,15 +37,24 @@ export function Facilitator() {
               <ul className="space-y-4 text-lg md:text-xl">
                 <li className="flex items-start gap-3">
                   <Briefcase className="w-6 h-6 text-[#D7A753] flex-shrink-0 mt-1" />
-                  <span>Founder KepalaKeluarga.id, sebuah gerakan untuk membangun keluarga yang kuat dan bahagia</span>
+                  <span>
+                    Founder KepalaKeluarga.id, sebuah gerakan untuk membangun
+                    keluarga yang kuat dan bahagia
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Heart className="w-6 h-6 text-[#D7A753] flex-shrink-0 mt-1" />
-                  <span>Pendamping ratusan pasangan yang berani merawat cinta dan bisnis secara bersamaan</span>
+                  <span>
+                    Pendamping ratusan pasangan yang berani merawat cinta dan
+                    bisnis secara bersamaan
+                  </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <Award className="w-6 h-6 text-[#D7A753] flex-shrink-0 mt-1" />
-                  <span>Praktisi bisnis & kehidupan yang memahami betul tantangan couplepreneur modern</span>
+                  <span>
+                    Praktisi bisnis & kehidupan yang memahami betul tantangan
+                    couplepreneur modern
+                  </span>
                 </li>
               </ul>
             </div>

@@ -1,4 +1,4 @@
-import { Sparkles, Users, Star, Zap } from 'lucide-react';
+import { Sparkles, Users, Star, Zap } from "lucide-react";
 
 export function Pricing() {
   return (
@@ -20,50 +20,88 @@ export function Pricing() {
             <div className="text-center mb-8">
               <div className="inline-flex items-center gap-2 bg-[#D7A753] text-[#184C38] px-6 py-2 rounded-full mb-6">
                 <Star className="w-5 h-5" />
-                <span className="tracking-wider uppercase">Paket Eksklusif</span>
+                <span className="tracking-wider uppercase">
+                  Paket Eksklusif
+                </span>
                 <Star className="w-5 h-5" />
               </div>
 
               {/* Pricing */}
               <div className="mb-6">
                 <div className="flex items-center justify-center gap-4 mb-2">
-                  <span className="text-[#F1E7D0] text-2xl line-through opacity-60">Rp 6.000.000</span>
+                  <span className="text-[#F1E7D0] text-2xl line-through opacity-60">
+                    Rp 6.000.000
+                  </span>
                 </div>
                 <div className="flex items-center justify-center gap-3">
                   <Sparkles className="w-8 h-8 text-[#D7A753]" />
-                  <span className="text-[#D7A753] text-5xl md:text-6xl">Rp 4.900.000</span>
+                  <span className="text-[#D7A753] text-5xl md:text-6xl">
+                    Rp 4.900.000
+                  </span>
                   <Sparkles className="w-8 h-8 text-[#D7A753]" />
                 </div>
-                <p className="text-[#F1E7D0] mt-2">per pasangan (2 orang)</p>
+                <p className="text-[#F1E7D0] text-xl mt-2">per pasangan</p>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 inline-block">
-                <div className="flex items-center gap-2 text-[#D7A753]">
-                  <Zap className="w-5 h-5" />
-                  <p className="uppercase tracking-wide">Early Bird Discount Rp 1.100.000!</p>
-                  <Zap className="w-5 h-5" />
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 inline-block mb-6">
+                <div className="flex items-center gap-3 text-[#D7A753]">
+                  <Users className="w-6 h-6" />
+                  <p className="text-lg">Kuota Terbatas: Hanya 20 Pasangan</p>
                 </div>
               </div>
             </div>
 
-            <div className="text-[#F1E7D0] space-y-4 max-w-2xl mx-auto">
-              <p className="text-center text-lg">
-                Bandingkan dengan biaya terapi pasangan yang bisa mencapai jutaan rupiah per sesi, 
-                atau konsultasi pernikahan yang harus dijadwalkan berkali-kali.
-              </p>
-              <p className="text-center italic opacity-90">
-                Di sini, kalian akan mendapat pengalaman penuh selama dua hari, 
-                lengkap dengan akomodasi, fasilitas, dan dampak yang bisa langsung kalian rasakan.
+            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
+              <p className="text-[#F1E7D0] text-lg">
+                Agar setiap momen terasa{" "}
+                <span className="text-[#D7A753]">
+                  pribadi, hangat, dan penuh makna
+                </span>
               </p>
             </div>
           </div>
         </div>
 
-        {/* Guarantee Badge */}
-        <div className="flex items-center justify-center gap-3 text-[#184C38]">
-          <Users className="w-6 h-6 text-[#D7A753]" />
-          <p className="text-lg">
-            <span className="font-bold text-[#D7A753]">Terbatas untuk 15 pasangan saja!</span>
+        {/* Special Offer Card */}
+        <div className="bg-gradient-to-r from-red-600 to-red-700 rounded-2xl p-6 md:p-8 shadow-2xl border-4 border-red-800 relative overflow-hidden">
+          <div className="absolute top-0 right-0">
+            <div className="bg-yellow-400 text-red-900 px-4 py-2 transform rotate-12 translate-x-2 -translate-y-2">
+              <span className="text-sm uppercase tracking-wider">Limited!</span>
+            </div>
+          </div>
+
+          <div className="relative z-10 flex flex-col md:flex-row items-center gap-6">
+            <div className="bg-yellow-400 p-4 rounded-full flex-shrink-0">
+              <Zap className="w-12 h-12 text-red-700" />
+            </div>
+            <div className="text-center md:text-left flex-1">
+              <h3 className="text-white text-2xl mb-2">
+                Bonus Spesial untuk 4 Pasangan Beruntung!
+              </h3>
+              <p className="text-yellow-100 text-lg">
+                <span className="text-yellow-300">
+                  KHUSUS 4 PASANGAN PERTAMA
+                </span>{" "}
+                akan mendapatkan{" "}
+                <span className="text-yellow-300">
+                  penginapan untuk 1 keluarga
+                </span>{" "}
+                dengan harga yang sama!
+              </p>
+            </div>
+            <div className="bg-yellow-400 px-6 py-3 rounded-lg flex-shrink-0">
+              <p className="text-red-900 text-xl uppercase tracking-wider">
+                Buruan!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Bottom Quote */}
+        <div className="text-center mt-12">
+          <p className="text-[#184C38] text-xl italic max-w-2xl mx-auto">
+            "Cinta juga butuh dirawat, bukan hanya dijalani. Luangkan dua hari
+            untuk saling menemukan kembali."
           </p>
         </div>
       </div>

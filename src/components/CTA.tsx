@@ -1,8 +1,10 @@
-import { MessageCircle, Heart, Clock, Users } from 'lucide-react';
+import { MessageCircle, Heart, Clock, Users } from "lucide-react";
 
 export function CTA() {
-  const whatsappNumber = "6281234567890"; // Ganti dengan nomor WhatsApp yang sesuai
-  const message = encodeURIComponent("Halo, saya tertarik untuk mendaftar Ultimate Couple Experience. Mohon info lebih lanjut.");
+  const whatsappNumber = "628812481672"; // Ganti dengan nomor WhatsApp yang sesuai
+  const message = encodeURIComponent(
+    "Halo, saya tertarik untuk mendaftar Ultimate Couple Experience. Mohon info lebih lanjut."
+  );
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${message}`;
 
   return (
@@ -24,7 +26,8 @@ export function CTA() {
             <Heart className="w-8 h-8 text-[#D7A753] animate-pulse" />
           </div>
           <p className="text-[#F1E7D0] text-xl max-w-2xl mx-auto">
-            Jangan lewatkan kesempatan untuk menguatkan ikatan dan menemukan kebahagiaan baru bersama pasangan
+            Jangan lewatkan kesempatan untuk menguatkan ikatan dan menemukan
+            kebahagiaan baru bersama pasangan
           </p>
         </div>
 
@@ -36,8 +39,10 @@ export function CTA() {
                 <Users className="w-6 h-6 text-[#184C38]" />
               </div>
               <div className="text-left">
-                <p className="text-[#D7A753] text-sm uppercase tracking-wide">Kuota Terbatas</p>
-                <p className="text-[#F1E7D0] text-xl">Hanya 15 Pasangan</p>
+                <p className="text-[#D7A753] text-sm uppercase tracking-wide">
+                  Kuota Tersisa
+                </p>
+                <p className="text-[#F1E7D0] text-xl">Hanya 20 Pasangan</p>
               </div>
             </div>
           </div>
@@ -48,8 +53,10 @@ export function CTA() {
                 <Clock className="w-6 h-6 text-[#184C38]" />
               </div>
               <div className="text-left">
-                <p className="text-[#D7A753] text-sm uppercase tracking-wide">Buruan Daftar</p>
-                <p className="text-[#F1E7D0] text-xl">Early Bird Terbatas</p>
+                <p className="text-[#D7A753] text-sm uppercase tracking-wide">
+                  Tanggal Event
+                </p>
+                <p className="text-[#F1E7D0] text-xl">22-23 Nov 2025</p>
               </div>
             </div>
           </div>
@@ -64,19 +71,23 @@ export function CTA() {
             className="inline-flex items-center gap-3 bg-[#D7A753] hover:bg-[#c89743] text-[#184C38] px-8 py-4 rounded-full text-xl transition-all duration-300 shadow-2xl hover:shadow-3xl hover:scale-105"
           >
             <MessageCircle className="w-6 h-6" />
-            <span className="tracking-wide uppercase">Daftar Sekarang via WhatsApp</span>
+            <span className="tracking-wide uppercase">
+              Daftar Sekarang via WhatsApp
+            </span>
           </a>
 
           <p className="text-[#F1E7D0] mt-6 text-sm">
-            Hubungi kami untuk informasi lebih lanjut dan konfirmasi keikutsertaan
+            Hubungi kami untuk informasi lebih lanjut dan konfirmasi
+            keikutsertaan
           </p>
         </div>
 
         {/* Final Message */}
         <div className="mt-12 bg-white/5 backdrop-blur-sm rounded-2xl p-8 border border-[#D7A753]/30">
           <p className="text-[#F1E7D0] text-center text-lg italic leading-relaxed">
-            "Cinta bukan sekadar perasaan. Ia adalah pilihan untuk terus tumbuh, belajar, dan merawat. 
-            Investasi terbaik yang bisa kalian berikan untuk hubungan adalah waktu dan perhatian."
+            "Cinta bukan sekadar perasaan. Ia adalah pilihan untuk terus tumbuh,
+            belajar, dan merawat. Investasi terbaik yang bisa kalian berikan
+            untuk hubungan adalah waktu dan perhatian."
           </p>
           <p className="text-[#D7A753] text-center mt-4">— KepalaKeluarga.id</p>
         </div>
